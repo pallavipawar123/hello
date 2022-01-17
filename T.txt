@@ -1,0 +1,38 @@
+package abc;
+import java.util.Scanner;
+public class T {
+	
+	
+		 static Scanner in=new Scanner(System.in);
+		  
+			public static void main(String args[]){  
+				System.out.print("Enter String As number :");
+				String s=in.nextLine();  
+				
+				Integer i=Integer.valueOf(s); 
+				Long l=Long.valueOf(s); 
+				Short s1=Short.valueOf(s); 
+				Float f=Float.valueOf(s); 
+				Double d=Double.valueOf(s); 
+				Byte b=Byte.valueOf(s);
+				System.out.println( s+20);//concatination
+				System.out.println("String>>>INT");
+				System.out.println("String to Int :"+(i+2));//Addition
+				System.out.println("String>>>Long");
+				System.out.println("String to Long :"+(l+3));
+				System.out.println("String>>>Short");
+				System.out.println("String to Short :"+(s1+4));
+				System.out.println("String>>>Float");
+				System.out.println("String to Float :"+(f+5));
+				System.out.println("String>>>Double");
+				System.out.println("String to Double :"+(d+6));
+				System.out.println("String>>>Byte");
+				System.out.println("String to Byte :"+(b+7));
+				
+				
+			 
+			 
+		}
+
+	}
+
